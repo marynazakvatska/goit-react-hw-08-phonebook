@@ -1,0 +1,32 @@
+.formInput {
+  color: rgb(5, 5, 5);
+  padding: 3px;
+  font-size: 18px;
+  background-color: ffffff;
+  border-radius: 5px;
+  transition: all 0.3s;
+  margin: 5px;
+}
+.formBtn {
+  display: flex;
+  align-items: center;
+  margin: 10px auto;
+  padding: 5px 10px;
+  padding: 6px;
+  cursor: pointer;
+  color: rgb(12, 11, 12);
+  border: 2px solid rgb(83, 41, 110);
+  background-color: rgb(224, 250, 152);
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  transition: all 250ms cubic-bezier(0.075, 0.82, 0.165, 1) 250ms;
+}
+
+.formBtn:hover,
+.formBtn:focus {
+  color: rgb(224, 250, 152);
+  background-color: rgb(83, 41, 110);
+  font-weight: 500;
+  border: 2px solid rgb(224, 250, 152);
+}

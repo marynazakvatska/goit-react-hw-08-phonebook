@@ -1,0 +1,16 @@
+.section {
+  padding: 20px 30px;
+  margin: 10px auto;
+  max-width: 500px;
+  background-color: rgb(69, 189, 105);
+  border: 3px solid rgb(248, 246, 244);
+  border-radius: 10px;
+}
+.title {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-family: "Franklin Gothic Medium";
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}

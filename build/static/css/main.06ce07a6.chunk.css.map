@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/components/Container/Container.module.css"],"names":[],"mappings":"AAAA,KACE,wBACF,CACA,4BACE,YACF","file":"main.06ce07a6.chunk.css","sourcesContent":["body {\r\n  background-color: rgb(66, 185, 201);\r\n}\r\n.container {\r\n  padding: 50px;\r\n}\r\n"]}

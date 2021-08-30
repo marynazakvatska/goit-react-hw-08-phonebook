@@ -1,8 +1,8 @@
 {
-  "name": "goit-react-hw-07-phonebook",
+  "name": "goit-react-hw-08-phonebook",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://marynazakvatska.github.io/goit-react-hw-07-phonebook",
+  "homepage": "https://marynazakvatska.github.io/goit-react-hw-08-phonebook",
   "dependencies": {
     "@reduxjs/toolkit": "^1.6.1",
     "@testing-library/jest-dom": "^5.14.1",
@@ -29,8 +29,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "server": "json-server --delay 500 --port 4040 --watch db.json"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

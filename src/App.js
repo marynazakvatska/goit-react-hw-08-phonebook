@@ -2,10 +2,10 @@ import{ useEffect, lazy, Suspense } from "react";
 import { useDispatch, useSelector } from 'react-redux';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute'
 import PublicRoute from "./components/PublicRoute/PublicRoute";
-import { Switch, Route } from "react-router-dom";
+import { Switch } from "react-router-dom";
 
 /* import Phonebook from "./components/Phonebook/Phonebook"; */
-import AppBar from "./components/UserMenu/AppBar/AppBar";
+import AppBar from './components/UserMenu/AppBar/AppBar';
 import operations from './auth/authOperations';
 import  authSelectors  from './auth/authSelectors';
 
@@ -28,7 +28,7 @@ function App() {
   )
 
   return (
-    isFetchingCurrectUser && (
+   /*  isFetchingCurrectUser && */ (
     <div>
      
       <AppBar />
